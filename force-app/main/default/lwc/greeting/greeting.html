@@ -1,0 +1,28 @@
+<template>
+    <lightning-card title="HelloExpressions" icon-name="custom:custom14">
+        <lightning-input type="checkbox" name="uppercaseFeature" label="Uppercase Feature" onchange={showUppercaseFeature}>Uppercase Feature</lightning-input>
+       <template lwc:if={showUppercaseFeatureChecked}>
+        <div class="slds-var-m-around_medium">
+            <lightning-input
+                name='firstName'
+                label="First Name"
+                onchange={handleChange}
+            ></lightning-input>
+            <lightning-input
+                name='lastName'
+                label="Last Name"
+                onchange={handleChange}
+            ></lightning-input>
+            
+        
+                Uppercased Full Name: {uppercasedFullName}
+         
+        </div>
+    </template>
+
+        <c-view-source source="lwc/helloExpressions" slot="footer">
+            Use JavaScript expressions in a template. Type something in the
+            input fields to see the recipe in action.
+        </c-view-source>
+    </lightning-card>
+</template>
