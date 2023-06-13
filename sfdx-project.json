@@ -5,8 +5,8 @@
       "default": true
     }
   ],
-  "name": "LWC",
+  "name": "LWC-SAMPLES",
   "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "56.0"
+  "sfdcLoginUrl": "https://empathetic-otter-kqfdyq-dev-ed.trailblaze.my.salesforce.com",
+  "sourceApiVersion": "57.0"
 }
