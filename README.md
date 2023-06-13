@@ -1,1 +1,1 @@
-# LWC-Samples
+# LWC Examples
