@@ -1,0 +1,14 @@
+<template>
+    <lightning-card>
+    <lightning-combobox
+            name="progress"
+            label="Status"
+            value={selOption}
+            placeholder="Select Progress"
+            options={options}
+            onchange={handleChange} ></lightning-combobox>
+<template if:true={selOption}>
+<c-chi-comp selected-option = {selOption}></c-chi-comp>
+</template>
+</lightning-card>
+</template>

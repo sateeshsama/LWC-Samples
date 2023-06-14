@@ -1,0 +1,13 @@
+<template>
+    <template lwc:if={input1}>
+        <lightning-input label="Name"></lightning-input>
+    </template>
+    <template lwc:elseif={input2}>
+        <lightning-input label="Phone"></lightning-input>
+    </template>
+    <template lwc:else>
+        <lightning-input label="Email"></lightning-input>
+    </template>
+</template>
+
+    
